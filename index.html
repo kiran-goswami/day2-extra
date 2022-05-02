@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    "forms : radio button and checkbox , dropdown
+Tables: rowspan , colspan
+
+
+radio button:Radio button is used for selecting only one option
+checkbox: which is used to select multiple option
+ 
+<form action="./index2.html">
+
+    <input type="radio" name="name" id="html" value="html">
+    <label for="html">html</label><br><br>
+
+    <input type="radio" name="name" id="css" value="css">
+    <label for="css">css</label><br><br>
+
+
+    <input type="radio" name="name" id="javascript" value="javascript">
+    <label for="javascript">javascript</label><br><br>
+    <input type="submit"><br><br>
+
+
+    <input type="checkbox" name="name" id="html" value="html">
+    <label for="html">html</label><br><br>
+
+
+    <input type="checkbox" id="css" name="name" value="css">
+    <label for="css">css</label><br><br>
+
+    <input type="checkbox" id="javascript" name="name" value="javascript">
+    <label for="javascript">javascript</label><br><br> 
+
+
+<input type="submit" value="submit"><br><br>
+
+
+</form>
+
+<form action="">
+
+<label for="drop">select the below option</label>
+<select name="dropdown" id="drop">
+    <option value="html">html</option>
+    <option value="css">css</option>
+    <option value="javascript">java</option>
+    <option value="react">react</option>
+    <input type="submit">
+</select>
+</form>
+
+<table border="5px" width="200px" height="150px" align="center">
+    <!-- whenever we want to say information to our clients in tabular manner then we are going to use tables -->
+     <!-- table  -->
+     <!-- table tr,td ,th -->
+
+     <tr align="center">
+         <th align="center">name</th>
+         <th>age</th>
+         <th>course</th>
+     </tr>
+    
+<tr align="center">
+    <td colspan="3">kiran</td>
+    <!-- <td>19</td>
+    <td>student</td> -->
+</tr>
+
+<tr align="center">
+    <td rowspan="2">sakshi</td>
+    <td>19</td>
+    <td>student</td>
+</tr>
+<tr align="center">
+    <!-- <td>aditii</td> -->
+    <td>19</td>
+    <td>student</td>
+</tr>
+</table>
+<br><br>
+
+<table align="center" border="3px" width="300px" height="150px" >
+<tr align="center">
+    <td>row 1 cell1</td>
+    <td>column 1</td>
+    <td>column2</td>
+</tr>
+<tr align="center">
+    <td rowspan="2">row 1 cell1</td>
+    <td>row 1 cell 2</td>
+    <td>row 1 cell 3</td>
+</tr>
+<tr align="center">
+    <!-- <td>row 1 cell1</td> -->
+    <td>row 2 cell 2</td>
+    <td>row 3 cell 3</td>
+</tr>
+<tr align="center">
+    <td colspan="3">row 1 cell1</td>
+    <!-- <td></td>
+    <td></td> -->
+</tr>    
+
+</table>
+
+
+
+</body>
+</html>
